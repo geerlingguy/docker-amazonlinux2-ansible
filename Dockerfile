@@ -2,7 +2,7 @@ FROM amazonlinux:2
 LABEL maintainer="Jeff Geerling"
 ENV container=docker
 
-ENV pip_packages "ansible"
+ENV pip_packages "ansible yamllint ansible-lint flake8 testinfra molecule"
 
 # Install systemd -- See https://hub.docker.com/_/centos/
 RUN yum -y update; yum clean all
@@ -15,6 +15,8 @@ RUN yum makecache fast \
       sudo \
       which \
       python-pip \
+      python-devel \
+      @development \
  && yum clean all
 
 # Install Ansible via Pip.
