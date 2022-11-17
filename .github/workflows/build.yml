@@ -25,6 +25,10 @@ jobs:
       - name: Run the built image.
         run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ansible
 
+      - name: downcase REPO
+        run: |
+          echo "REPO=${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
+
   # If on master branch, build and release image.
   release:
     name: Release
@@ -50,4 +54,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ github.repository }}.toLowerCase():latest
+          tags: ${REPO}:latest
