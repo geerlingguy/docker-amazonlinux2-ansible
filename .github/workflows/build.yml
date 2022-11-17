@@ -54,4 +54,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ REPO }}:latest
+          tags: ${{ env.REPO }}:latest
