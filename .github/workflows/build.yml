@@ -50,4 +50,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ github.repository,, }}:latest
+          tags: $("${{ github.repository }}".toLowerCase()):latest
