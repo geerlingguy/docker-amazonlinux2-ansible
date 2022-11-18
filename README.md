@@ -1,13 +1,12 @@
 # Amazon Linux 2 Image
 
-[![CI](https://github.com/geerlingguy/docker-amazonlinux2-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-amazonlinux2-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-amazonlinux2-ansible)](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2-ansible/)
+[![CI](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/PedigreeTechnologies/docker-amazonlinux2-base)](https://hub.docker.com/r/PedigreeTechnologies/docker-amazonlinux2-base/)
 
 Amazon Linux 2 Docker container.
 
 ## Tags
 
-  - `latest`: Latest successful build of the Amazon Linux 2 container.
-
+- `latest`: Latest successful build of the Amazon Linux 2 container.
 
 ## How to Build
 
@@ -15,9 +14,8 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
   2. Clone this repo locally on your machine.
-  2. `cd` into the root repo directory.
-  3. Run `docker build -t amazonlinux2-base .`
-
+  3. `cd` into the root repo directory.
+  4. Run `docker build -t amazonlinux2-base .`
 
 ## How to Use
 
