@@ -1,4 +1,4 @@
-# Amazon Linux 2 Ansible Test Image
+# Amazon Linux 2 Image
 
 [![CI](https://github.com/geerlingguy/docker-amazonlinux2-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-amazonlinux2-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-amazonlinux2-ansible)](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2-ansible/)
 
