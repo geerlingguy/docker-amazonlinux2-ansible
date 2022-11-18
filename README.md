@@ -1,6 +1,6 @@
 # Amazon Linux 2 Image
 
-[![CI](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/PedigreeTechnologies/docker-amazonlinux2-base)](https://hub.docker.com/r/PedigreeTechnologies/docker-amazonlinux2-base/)
+[![CI](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/PedigreeTechnologies/docker-amazonlinux2-base)](https://hub.docker.com/r/pedigreetechnologies/docker-amazonlinux2-base)
 
 Amazon Linux 2 Docker container.
 
