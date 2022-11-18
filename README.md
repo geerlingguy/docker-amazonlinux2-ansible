@@ -1,6 +1,6 @@
 # Amazon Linux 2 Image
 
-[![CI](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/pedigreetechnologies/docker-amazonlinux2-base)](https://hub.docker.com/r/pedigreetechnologies/docker-amazonlinux2-base)
+[![CI][Actions]][ActionsBuild] [![Docker pulls][DockerImg]][Docker]
 
 Amazon Linux 2 Docker container.
 
@@ -27,3 +27,9 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
 Originally created in 2018 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
 Adapted for internal use at Pedigree Techologies in 2022
+
+
+[Actions]: https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/workflows/Build/badge.svg?branch=master&event=push
+[ActionsBuild]: https://github.com/PedigreeTechnologies/docker-amazonlinux2-base/actions?query=workflow%3ABuild
+[DockerImg]: https://img.shields.io/docker/pulls/pedigreetechnologies/docker-amazonlinux2-base
+[Docker]: https://hub.docker.com/r/pedigreetechnologies/docker-amazonlinux2-base
